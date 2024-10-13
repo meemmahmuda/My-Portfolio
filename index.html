@@ -1088,38 +1088,43 @@
                         <h2 class="intro fade_up">contact us</h2>
                     </div>
                     <h2 class="moswa fade_up">Let's Work Together!</h2>
-                    <div class="container1">
-                        <div class="form form__1">
-                            <label for="name" class="form__label">What’s Your Name*</label>
-                            <input type="text" class="form__input" placeholder="" id="name" required autocomplete="off">
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="c0ed08d6-8bbf-4799-bc9f-776d6e9dc5d5">
+                        <div class="container1">
+                            <div class="form form__1">
+                                <label for="name" class="form__label">What’s Your Name*</label>
+                                <input name="name" type="text" class="form__input" placeholder="" id="name" required autocomplete="off">
+                            </div>
+                            <div class="form form__2">
+                                <label for="email" class="form__label">Your Email*</label>
+                                <input name="email" type="email" class="form__input" placeholder="" id="email" required
+                                    autocomplete="off">
+                            </div>
+                            <div class="form form__1">
+                                <label for="name" class="form__label">Your Phone Number*</label>
+                                <input name="phone" type="text" class="form__input" placeholder="" id="phone" required
+                                    autocomplete="off">
+                            </div>
+                            <div class="form form__1">
+                                <label for="name" class="form__label">Subject*</label>
+                                <input name="topic" type="text" class="form__input" placeholder="" id="subject" required
+                                    autocomplete="off">
+                            </div>
                         </div>
-                        <div class="form form__2">
-                            <label for="email" class="form__label">Your Email*</label>
-                            <input type="email" class="form__input" placeholder="" id="email" required
-                                autocomplete="off">
+                        <div class="btn_message">
+                            <div class="form form__3">
+                                <label for="name" class="form__label">Tell us about your project*</label>
+                                <input name="project" type="text" class="form__input message2" placeholder="" id="project" required autocomplete="off">
+                            </div>
+                            <div class="send_message_form">
+                                <button class="download_cv form__btn">
+                                    <i class="fa-regular fa-paper-plane material-icons"></i>Send Message
+                                </button>
+                            </div>
                         </div>
-                        <div class="form form__1">
-                            <label for="name" class="form__label">Your Phone Number*</label>
-                            <input type="text" class="form__input" placeholder="" id="phone" required
-                                autocomplete="off">
-                        </div>
-                        <div class="form form__1">
-                            <label for="name" class="form__label">Subject*</label>
-                            <input type="text" class="form__input" placeholder="" id="subject" required
-                                autocomplete="off">
-                        </div>
-                    </div>
-                    <div class="btn_message">
-                        <div class="form form__3">
-                            <label for="name" class="form__label">Tell us about your project*</label>
-                            <input type="text" class="form__input message2" placeholder="" id="project" required>
-                        </div>
-                        <div class="send_message_form">
-                            <button class="download_cv form__btn">
-                                <i class="fa-regular fa-paper-plane material-icons"></i>Send Message
-                            </button>
-                        </div>
-                    </div>
+                    </form>
+
                     <div>
                         <h3 class="moswa touch">Get in touch!</h3>
                         <div class="contact_number_main">
