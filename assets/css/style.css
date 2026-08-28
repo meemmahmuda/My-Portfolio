@@ -976,11 +976,11 @@ section#card_main {
 .designer {
     color: #FFF;
     font-size: 20px;
-    line-height: normal;
+    /* line-height: normal; */
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 25px;
-    height: 20px;
+    /* height: 20px; */
 }
 
 /*-----------------------[ 9.Home Section CSS ]------------------------*/
