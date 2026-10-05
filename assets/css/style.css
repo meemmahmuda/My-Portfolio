@@ -1536,6 +1536,7 @@ button:hover .shopping_bag {
 
 .content-image {
     width: 100%;
+    height: 220px;
     border-radius: 20px;
 }
 
