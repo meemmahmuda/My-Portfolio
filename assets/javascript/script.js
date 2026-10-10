@@ -319,3 +319,6 @@ window.addEventListener("load", () => {
 $(function () {
     $('.circlechart').circlechart();
 });
+
+// Copyright Year Change
+document.getElementById("year").textContent = new Date().getFullYear();
